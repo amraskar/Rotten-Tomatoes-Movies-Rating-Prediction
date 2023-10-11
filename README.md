@@ -5,3 +5,9 @@
 ## Code and Resources Used 
 **Python Version:** 3.11  
 **Packages:** pandas, numpy, scipy, sklearn, matplotlib, seaborn, xgboost
+
+## Dataset Used 
+**From Kaggle:
+https://www.kaggle.com/datasets/stefanoleone992/rotten-tomatoes-movies-and-critic-reviews-dataset/data
+
+
