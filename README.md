@@ -7,7 +7,25 @@
 **Packages:** pandas, numpy, scipy, sklearn, matplotlib, seaborn, xgboost
 
 ## Dataset Used 
-**From Kaggle:**
-https://www.kaggle.com/datasets/stefanoleone992/rotten-tomatoes-movies-and-critic-reviews-dataset/data
+**From Kaggle:**https://www.kaggle.com/datasets/stefanoleone992/rotten-tomatoes-movies-and-critic-reviews-dataset/data
+
+## Data Cleaning
+After scraping the data, I needed to clean it up so that it was usable for our model. I made the following changes and created the following variables:
+
+*	Removed columns with high number of null values.
+*	Removed rows with null values.
+*	Checked for no duplication.
+*	Made columns for the number of directors in each movie.
+*	Made columns for the number of authors in each movie.
+*	Made columns for the number of actors in each movie.
+
+## EDA
+* I looked at the distributions of the data
+* Correlation with the target value
+![alt text](https://github.com/amraskar/Rotten-Tomatoes-Movies-Rating-Prediction/blob/0fe1ee5f6fb050cc0d55ca7e352312384de6ab03/Correlation%20Heatmap.png "Correlations")
+* The value counts for the various categorical variables.
+* I removed Outliers
+* Dealing with skewed data
+![alt text](https://github.com/amraskar/Rotten-Tomatoes-Movies-Rating-Prediction/blob/aa4e96b3d60070abde4ec76c5acee00a9fd3ef44/Distribution.png "Distributions")
 
 
