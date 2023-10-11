@@ -7,7 +7,7 @@
 **Packages:** pandas, numpy, scipy, sklearn, matplotlib, seaborn, xgboost
 
 ## Dataset Used 
-**From Kaggle:**https://www.kaggle.com/datasets/stefanoleone992/rotten-tomatoes-movies-and-critic-reviews-dataset/data
+**From Kaggle:** https://www.kaggle.com/datasets/stefanoleone992/rotten-tomatoes-movies-and-critic-reviews-dataset/data
 
 ## Data Cleaning
 After scraping the data, I needed to clean it up so that it was usable for our model. I made the following changes and created the following variables:
@@ -38,4 +38,4 @@ After scraping the data, I needed to clean it up so that it was usable for our m
 **I tried three different models:**
 * Decision Tree Model
 * Random Forest Model
-* XGBoot Model 
+* XGBoost Model 
