@@ -10,7 +10,7 @@
 **From Kaggle:** https://www.kaggle.com/datasets/stefanoleone992/rotten-tomatoes-movies-and-critic-reviews-dataset/data
 
 ## Data Cleaning
-After scraping the data, I needed to clean it up so that it was usable for our model. I made the following changes and created the following variables:
+I needed to clean it up so that it was usable for our model. I made the following changes and created the following variables:
 
 *	Removed columns with high number of null values.
 *	Removed rows with null values.
